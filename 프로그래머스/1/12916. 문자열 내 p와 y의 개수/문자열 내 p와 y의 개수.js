@@ -1,7 +1,7 @@
 function solution(s){
     var answer = true;
-    var pcount = 0;
-    var ycount = 0;
+    let pcount = 0;
+    let ycount = 0;
     
     for(let i = 0; i < s.length; i++) {
         if(s[i] === 'p' || s[i] === 'P') {
